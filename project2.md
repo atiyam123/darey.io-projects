@@ -51,6 +51,30 @@ For this final step I had to create a test database with a To Do list and config
 I had to start by creating a database with a new user and password in mysql.
 <img width="1512" alt="Screenshot 2022-12-14 at 21 01 54" src="https://user-images.githubusercontent.com/114743648/212209875-09bd5e81-cdac-41e8-a828-d24a547b347f.png">
 
+Next I had to confirm that I had access to my database by using the code *mysql> SHOW DATABASES;* which gave me the following output. 
+<img width="1512" alt="Screenshot 2023-01-13 at 16 16 46" src="https://user-images.githubusercontent.com/114743648/212367940-689f46d2-6830-4609-ab9a-0d0ca7bc6718.png">
+
+Then I inserted a few rows of content into the test table to get this output.
+<img width="1512" alt="Screenshot 2023-01-13 at 16 17 31" src="https://user-images.githubusercontent.com/114743648/212369157-119efd11-59db-4965-83d3-5cfd4741a6ca.png">
+
+When this was complete I exited from the mysql console. I then had to create a PHP script so that it could connect to mysql and query my content. I used VIM to create a new PHP file in my web root directory and copied some todo_list content in the file. I saved it and was then was able to access the page in my browser using my public IP address. I ended up with the following 
+<img width="1512" alt="Screenshot 2022-12-15 at 12 35 18" src="https://user-images.githubusercontent.com/114743648/212370207-ff7570f8-7e2f-4f6f-a198-3af021bcbc44.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
